@@ -71,13 +71,13 @@ Por último, en la línea 7, configuramos el puerto que Docker expondrá cuando 
 
 NOTA: La aplicación Node.js usa el puerto 8081 pero usará ese puerto dentro del contenedor Docker cuando el contenedor se esté ejecutando.
 
-### 7. Constrior imagen de Docker 
+### 7. Construir imagen de Docker 
 
 `$ docker build -t hola-world .`
 
 ## SUBIENDO A DUCKER HUB 
 
-Para subir una imagen al repositorio de docker hub
+Para subir una imagen al repositorio de docker hub debemos tener o crear una cuenta.
 
 ### 8. Logeandonos desde la terminal 
 
